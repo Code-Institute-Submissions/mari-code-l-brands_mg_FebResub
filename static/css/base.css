@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('media/bg.jpeg') no-repeat center center fixed;
+    background: url('https://res.cloudinary.com/food-channel/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1629482659/sophie-Gz3iikctfEw-unsplash_mhkprl.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -50,6 +50,10 @@ body {
 
 .text-black {
     color: #000 !important;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .border-black {
