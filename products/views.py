@@ -1,8 +1,9 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
-from .models import Product, Category
 from django.db.models.functions import Lower
+
+from .models import Product, Category
 
 
 def all_products(request):
@@ -39,7 +40,8 @@ def all_products(request):
                 messages.error(request, "Enter any search criteria!")
                 return redirect(reverse('products'))
 
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            queries = Q(
+                name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
@@ -48,11 +50,6 @@ def all_products(request):
         'products': products,
         'search_term': query,
         'current_categories': categories,
-    }
-
-    context = {
-        'products': products,
-        'search_term': query,
         'current_sorting': current_sorting,
     }
 
