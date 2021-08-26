@@ -2,7 +2,6 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
 from django.db.models.functions import Lower
-
 from .models import Product, Category
 
 
@@ -37,7 +36,7 @@ def all_products(request):
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
-                messages.error(request, "Enter any search criteria!")
+                messages.error(request, "Enter criteria!")
                 return redirect(reverse('products'))
 
             queries = Q(
