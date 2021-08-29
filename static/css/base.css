@@ -3,14 +3,13 @@ html {
 }
 
 body {
-    background: url('https://res.cloudinary.com/food-channel/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1629482659/sophie-Gz3iikctfEw-unsplash_mhkprl.jpg') no-repeat center center fixed;
+    background: url('https://res.cloudinary.com/food-channel/image/upload/v1630262588/sebastiaan-stam-H33IhK53rpg-unsplash_zpltzn.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
 }
 
-/* from Bulma */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -28,9 +27,9 @@ body {
 }
 
 .shop-now-button {
-    background: black;
+    background: rgba(189, 4, 4, 0.849);
     color: white;
-    min-width: 260px;
+    min-width: 200px;
 }
 
 .btn-black {
@@ -50,7 +49,7 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: rgba(247, 182, 3, 0.945);
     color: white;
 }
 
