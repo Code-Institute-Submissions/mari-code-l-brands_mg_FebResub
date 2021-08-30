@@ -43,7 +43,6 @@ body {
     border: 1px solid black;
 }
 
-
 .shop-now-button:active,
 .shop-now-button:focus,
 .btn-black:hover,
@@ -54,7 +53,7 @@ body {
 }
 
 .shop-now-button:hover{
-    background: rgba(247, 182, 3, 0.945);
+    background: rgba(247, 187, 22, 0.767);
     color: white;
 }
 
