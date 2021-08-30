@@ -1,15 +1,13 @@
-<a href="https://daily-planner101.herokuapp.com" target="_blank"><img src="https://res.cloudinary.com/food-channel/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.5/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Either you run the day or the day runs you.,w_0.5,y_0.18/v1624626964/amy-humphries-2M_sDJ_agvs-unsplash_vyjljj.jpg" alt="Daily Planner"></a>
-# Daily Planner
-### Third Milestone Project 
+<a href="https://res.cloudinary.com/food-channel/image/upload/v1630349506/banner.png" alt="MG Brands"></a>
+# MG Brands
+### A fourth Milestone Project 
 
-<p><strong>Daily Planner </strong> is a personal web application for those who loves to organize their daily plan, 
-where users can register, log-in, create, read, update, delete and search created their plan</p>
+<p><strong>MG Brands </strong> is an e-commerce website application for those who loves Urban fashion.
+ </p>
 
-<p>Inspired by my boyfriend who's very old school and who still write down his plan with the use of paper and pen. I find it difficult for me to 
-see him still using the old fashioned way so I have decided to create an app with a simple, clean and user friendly design. 
-For his love of the ocean, coffee, and croissant, I have used the said images to brighten up his day and every user and I guess everybody loves them too.</p>
+<p>Inspired by my onlineshop in the Philippines managed by my sister. I have decided my online shop through facebook and Instagram only since the pandemic started. People shop from home due to lockdowns. I guess this is the right time to make a website for my shop and it is perfectly match with the Milestone project 4. </p>
 
-[View the live project here](https://daily-planner101.herokuapp.com)
+[View the live project here](#)
 <hr>
 
 ### Table of contents
@@ -40,39 +38,40 @@ For his love of the ocean, coffee, and croissant, I have used the said images to
 
 # UX 
 ## Project Goals
-The primary goal of **Daily Planner 101** is to provide a web-based application, that is simplistic and user friendly design, 
-that allows users to **create**, **read**, **update**, **delete**, and **search** their plan in one app.
+The primary goal of **MG Brands** is to provide a n e-commerce website, that is simplistic and user friendly design, 
+that allows users to **create**, **read**, **update**, **delete**, and **search** their orders. Users can add, update, remove orders from shopping cart. Users can make payments as well with secure check out after shopping.
 
-This is the third of Milestone Project that the developer student must complete during their Full Stack Web Development 
+This is the fourth of Milestone Project that the developer student must complete during their Full Stack Web Development 
 Program at The Code Institute and the main requirements is to build a full-stack website allowing users to manage a common dataset using 
-**HTML5**, **CSS3**, **JavaScript**, **Python**, **Flask** and **MongoDB**.
+**HTML5**, **CSS3**, **JavaScript**, **Python**, and **Django**.
 
 #### User Goals
 The user is looking for:
+- easy navigation throughout the site
+- Mobile friendly site
 - A searchable database.
 - Create a user account.
-- An easy-to-use dataset management system with **CRUD** conventions to:
-
-    - Create plan.
-    - Read plan.
-    - Update the plan.
-    - Delete created plan.
-
+- An easy-to-use dataset management system with **CRUD** conventions
+- Add, update, remove items from the shopping cart.
+- Secure payment.
 
 #### Developer / Site Owner Goals
 The Developer is looking to:
 
-- Create a user-friendly application that they themselves would use for organizing their daily tasks .
+- Create a user-friendly website for users to enjoy while shopping
 - Demonstrate their proficiency in a variety of software development skills, using newly learned languages and libraries as well as a document database system.
 - Deploy a project they are proud of, and excited to have, on their portfolio.
-
 
 ## User Stories
 **As a General User, I want to:**
 
-1. Create, Read, Update, Delete daily plan and find them on the database. 
-2. View the selected plan dashboard to get necessary information.
-3. Provide links to stay connected with the developer or an app made.
+1. Create, Read, Update, Delete account and find them on the database. 
+2. add items to shopping bag
+3. View items in the bag and adjust them.
+4. Provide secure payment.
+5. See total of shopping bag.
+6. Checkout using credit/debit card.
+7. Be notified if my card info is invalid.
 
 **As a Non-Registered User, I want to:**
 
@@ -80,14 +79,151 @@ The Developer is looking to:
 
 **As a Registered User, I want to:**
 
-1. Log into my account to access to the full functionality of the planner.
-2. Navigate to my planner page to view tasks.
-3. Create a task .
-4. View my plans to edit task as needed.
-5. View my plans to delete task.
-
+1. Log into my account.
+2. Navigate to my orders.
 
 **As an Admin, I want to:**
 
-1. View Manage Plan button and should be to visible to admin.
-2. Add categories, Edit and Delete them.
+1. View, manage website and should be only visible to admin.
+
+
+
+
+
+
+## Development Planes
+
+***1. Strategy Plane*** 
+
+***2. Scope Plane*** 
+
+***3. Structure Plane*** 
+
+
+
+ 
+**[Register Page](https://daily-planner101.herokuapp.com/register)**
+| Feature       | Description  |
+|---------------|--------------|
+| Input Fields    | The input fields allow users to enter their username. |
+| Password Authentication | The password field uses [Werkzeug](https://werkzeug.palletsprojects.com/en/2.0.x/) to un-hash the password for login authentication|
+| Call to Action | Once the input fields are completed as required, the user can click to Login or, if they do not already have an account, they can Register. |
+
+***4. Skeleton Plane*** 
+
+***5. Surface Plane*** 
+
+## Issues and Bugs 
+
+
+## Technologies Used
+### Languages
+- [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Link to CSS Wiki")
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript "Link to JavaScript Wiki")
+- [Python](https://www.python.org/ "Link to Python Homepage")
+
+### Tools
+- [Git](https://git-scm.com/ "Link to Git homepage")
+     - Git was used for version control to commit to Git and push to Heroku.
+- [GitHub](https://github.com/ "Link to GitHub")
+     - GitHub was used to store the project repository, after pushing.
+- [Heroku](https://id.heroku.com/login "Link to Heroku login page")
+     -  Heroku was used in order to deploy the website.
+- [Balsamiq](https://balsamiq.com/" Link to Balsamiq homepage")
+     - Figma was used to create the wireframes during the design phase of the project.
+- [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
+     - Am I Responsive was used in order to validate the responsiveness of the design, and to generate mockup imagery to be used.
+- [COLOORS](https://coolors.co/ "Link to COLOORS homepage")
+     - COLOORS is a  colour picker tool and created image out of it.
+- [Unsplash](https://unsplash.com/ "LINK TO COLOORS") 
+     - Unsplash was used for images.
+- [Cloudinary](https://cloudinary.com/ "Link to Cloudinary site")
+     - Cloudinary is being used to access the image through cloud and edited the images as well using it.
+- [Font Awesome](https://fontawesome.com/ "Link to Font Awesome site")
+     - Font Awesome was used in conjunction with Iconify for icons used throughout the website.
+
+
+### Libraries
+
+
+[Back to top ⇧](#table-of-contents)
+
+## Testing
+
+
+## Deployment
+
+- **Forking the Repository:**
+
+     By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
+
+     1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+     2. Locate the [GitHub Repository](https://github.com/rebeccatraceyt/bake-it-til-you-make-it "Link to GitHub Repo").
+     3. At the top of the repository, on the right side of the page, select "Fork".
+     4. You should now have a copy of the original repository in your GitHub account.
+
+-  **Creating a Clone**
+
+     How to run this project locally:
+     1. Install the [GitPod Browser](https://www.gitpod.io/docs/browser-extension/ "Link to Gitpod Browser extension download") Extension for Chrome.
+     2. After installation, restart the browser.
+     3. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+     2. Locate the [GitHub Repository](https://github.com/rebeccatraceyt/bake-it-til-you-make-it "Link to GitHub Repo").
+     5. Click the green "GitPod" button in the top right corner of the repository.
+     This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
+
+     How to run this project within a local IDE, such as VSCode:
+
+     1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+     2. Locate the [GitHub Repository](https://github.com/rebeccatraceyt/bake-it-til-you-make-it "Link to GitHub Repo").
+     3. Under the repository name, click "Clone or download".
+     4. In the Clone with HTTPs section, copy the clone URL for the repository.
+     5. In your local IDE open the terminal.
+     6. Change the current working directory to the location where you want the cloned directory to be made.
+     7. Type 'git clone', and then paste the URL you copied in Step 3.
+     ```
+     git clone https://github.com/USERNAME/REPOSITORY
+     ```
+     8. Press Enter. Your local clone will be created.
+
+     (Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository "Link to GitHub troubleshooting"))
+
+### 3. Heroku App Creation
+
+Once these steps are completed, continue with the process:
+
+1. Log into [Heroku](https://id.heroku.com/login "Link to Heroku login page") or [create an account](https://signup.heroku.com/login "Link to Heroku sign-up page").
+2. Select the `New` button on the top-right of the page, and choose `Create New App`. Give your app a unique name and set the region (in this instance: **Europe**). Then click `Create App`.
+3. Navigate to the `Deploy` tab on the dashboard and select `Connect to GitHub`.
+4. Search for the repository name (ensuring it is spelled correctly). Once located, click `Connect`. 
+5. Navigate to the `Setting` tab on the dashboard and select `Reveal Config Vars`, entering the necessary key/values as below:
+
+6. Navigate back to the `Deploy` tab and scroll down to `Automatic Deploys`.
+7. Ensure that the `master` branch is selected, then select `Enable Automatic Deploys`.
+
+Heroku will receive the pushed code from the GitHub repository and host the application with the required packages set out. 
+
+The deployed version can now be viewed..
+
+
+[Back to top ⇧](#table-of-contents)
+
+## Credits 
+
+## Acknowledgements 
+
+[Back to top ⇧](#table-of-contents)
+
+***
+
+## Technical Support
+
+
+## Note to the Assesor
+
+Thank you for your time on viewing my project. I hope you enjoy it. =)
+
+[Back to top ⇧](#table-of-contents)
+
+*** 
