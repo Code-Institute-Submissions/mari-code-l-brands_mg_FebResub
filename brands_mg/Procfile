@@ -1,0 +1,1 @@
+web: gunicorn brands_mg.wsgi.application
