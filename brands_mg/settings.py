@@ -120,17 +120,12 @@ WSGI_APPLICATION = 'brands_mg.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# 'DATABASES = {
-#     'default': {
-#        'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }'
-
-DATABASES = {
-    'default': dj_database_url.parse('postgres://hchtopqfqwqxek:5e37ffde1e6896b216958bfc1c9c52ff66bd48837e0229b77423c83ba41babdd@ec2-54-74-77-126.eu-west-1.compute.amazonaws.com:5432/dh76s72a7djm6')
-}
-
+'DATABASES = {
+    'default': {
+       'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}'
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
