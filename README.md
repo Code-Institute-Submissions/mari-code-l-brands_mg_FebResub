@@ -1,4 +1,4 @@
-<a href="https://res.cloudinary.com/food-channel/image/upload/v1630349506/banner.png" alt="MG Brands"></a>
+<a href="#" alt="MG Brands"></a>
 # MG Brands
 ### A fourth Milestone Project 
 
@@ -17,8 +17,7 @@
      3. Development Planes
 2. Data Schema
      1. Categories Collection
-     2. Task Collection
-     3. Users Collection
+     2. Users Collection
 3. Features to Implement in the future
 4. Issues and Bugs
 5. Technologies used
@@ -87,10 +86,6 @@ The Developer is looking to:
 1. View, manage website and should be only visible to admin.
 
 
-
-
-
-
 ## Development Planes
 
 ***1. Strategy Plane*** 
@@ -98,16 +93,6 @@ The Developer is looking to:
 ***2. Scope Plane*** 
 
 ***3. Structure Plane*** 
-
-
-
- 
-**[Register Page](https://daily-planner101.herokuapp.com/register)**
-| Feature       | Description  |
-|---------------|--------------|
-| Input Fields    | The input fields allow users to enter their username. |
-| Password Authentication | The password field uses [Werkzeug](https://werkzeug.palletsprojects.com/en/2.0.x/) to un-hash the password for login authentication|
-| Call to Action | Once the input fields are completed as required, the user can click to Login or, if they do not already have an account, they can Register. |
 
 ***4. Skeleton Plane*** 
 
@@ -154,58 +139,6 @@ The Developer is looking to:
 
 ## Deployment
 
-- **Forking the Repository:**
-
-     By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
-
-     1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
-     2. Locate the [GitHub Repository](https://github.com/rebeccatraceyt/bake-it-til-you-make-it "Link to GitHub Repo").
-     3. At the top of the repository, on the right side of the page, select "Fork".
-     4. You should now have a copy of the original repository in your GitHub account.
-
--  **Creating a Clone**
-
-     How to run this project locally:
-     1. Install the [GitPod Browser](https://www.gitpod.io/docs/browser-extension/ "Link to Gitpod Browser extension download") Extension for Chrome.
-     2. After installation, restart the browser.
-     3. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
-     2. Locate the [GitHub Repository](https://github.com/rebeccatraceyt/bake-it-til-you-make-it "Link to GitHub Repo").
-     5. Click the green "GitPod" button in the top right corner of the repository.
-     This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
-
-     How to run this project within a local IDE, such as VSCode:
-
-     1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
-     2. Locate the [GitHub Repository](https://github.com/rebeccatraceyt/bake-it-til-you-make-it "Link to GitHub Repo").
-     3. Under the repository name, click "Clone or download".
-     4. In the Clone with HTTPs section, copy the clone URL for the repository.
-     5. In your local IDE open the terminal.
-     6. Change the current working directory to the location where you want the cloned directory to be made.
-     7. Type 'git clone', and then paste the URL you copied in Step 3.
-     ```
-     git clone https://github.com/USERNAME/REPOSITORY
-     ```
-     8. Press Enter. Your local clone will be created.
-
-     (Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository "Link to GitHub troubleshooting"))
-
-### 3. Heroku App Creation
-
-Once these steps are completed, continue with the process:
-
-1. Log into [Heroku](https://id.heroku.com/login "Link to Heroku login page") or [create an account](https://signup.heroku.com/login "Link to Heroku sign-up page").
-2. Select the `New` button on the top-right of the page, and choose `Create New App`. Give your app a unique name and set the region (in this instance: **Europe**). Then click `Create App`.
-3. Navigate to the `Deploy` tab on the dashboard and select `Connect to GitHub`.
-4. Search for the repository name (ensuring it is spelled correctly). Once located, click `Connect`. 
-5. Navigate to the `Setting` tab on the dashboard and select `Reveal Config Vars`, entering the necessary key/values as below:
-
-6. Navigate back to the `Deploy` tab and scroll down to `Automatic Deploys`.
-7. Ensure that the `master` branch is selected, then select `Enable Automatic Deploys`.
-
-Heroku will receive the pushed code from the GitHub repository and host the application with the required packages set out. 
-
-The deployed version can now be viewed..
-
 
 [Back to top ⇧](#table-of-contents)
 
@@ -220,9 +153,13 @@ The deployed version can now be viewed..
 ## Technical Support
 
 
-## Note to the Assesor
+# Note to the Assesor
 
-Thank you for your time on viewing my project. I hope you enjoy it. =)
+Thank you for your time on viewing my project. This project wasn't finished due to lack of time and planned with lots functionality. I have started this later due to my 3rd project resubmission. I am struggling doing this in 2 weeks which I believe it is not enough. Since this is my last project it has a lot of pressure on me with mixed emotions, followed by my personal family problems that all of my 3 siblings got Covid, breakup, death of my dog pet and that all together triggered my anxiety disorder. I believe that I will be able to finish my project with proper mindset, willingness and enough time soon. I am looking forward to it. Thank you for taking your time viewing this project. 
+
+Sincerely yours,
+
+Maridel Arcagua
 
 [Back to top ⇧](#table-of-contents)
 
