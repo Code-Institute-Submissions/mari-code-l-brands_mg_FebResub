@@ -18,6 +18,14 @@ body {
     width: 1.5rem;
 }
 
+.logo-font {
+    text-transform: uppercase;
+}
+
+.main-logo-link {
+    width: fit-content;
+}
+
 .shop-now-button {
     background: rgba(189, 4, 4, 0.849);
     color: white;
