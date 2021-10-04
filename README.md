@@ -155,12 +155,6 @@ The Developer is looking to:
 
 # Note to the Assesor
 
-Thank you for your time on viewing my project. This project wasn't finished due to lack of time and planned with lots functionality. I have started this later due to my 3rd project resubmission. I am struggling doing this in 2 weeks which I believe it is not enough. Since this is my last project it has a lot of pressure on me with mixed emotions, followed by my personal family problems that all of my 3 siblings got Covid, breakup, death of my dog pet and that all together triggered my anxiety disorder. I believe that I will be able to finish my project with proper mindset, willingness and enough time soon. I am looking forward to it. Thank you for taking your time viewing this project. 
-
-Sincerely yours,
-
-Maridel Arcagua
-
 [Back to top ⇧](#table-of-contents)
 
 *** 
