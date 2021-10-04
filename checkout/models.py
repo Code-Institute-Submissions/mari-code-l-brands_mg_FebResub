@@ -30,7 +30,6 @@ class Order(models.Model):
     original_bag = models.TextField(null=False, blank=False, default='')
     stripe_pid = models.CharField(max_length=254, null=False, blank=False, default='')
 
-
     def _generate_order_number(self):
 
         return uuid.uuid4().hex.upper()
