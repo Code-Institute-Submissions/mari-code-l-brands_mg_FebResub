@@ -39,7 +39,7 @@ body {
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
+    color: black !important;
     border: 1px solid black;
 }
 
@@ -177,7 +177,7 @@ a.category-badge > span.badge:hover {
 }
 
 
-/* fixed top navbar only on medium and up */
+/* fixed top navbar on medium  */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -192,7 +192,7 @@ a.category-badge > span.badge:hover {
     }
 }
 
-/* pad the top a bit when navbar is collapsed on mobile */
+/* pad the top when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
         padding-top: 116px;
