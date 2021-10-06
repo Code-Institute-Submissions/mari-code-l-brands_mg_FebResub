@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('https://res.cloudinary.com/food-channel/image/upload/v1630262588/sebastiaan-stam-H33IhK53rpg-unsplash_zpltzn.jpg') no-repeat center center fixed;
+    background: url('https://res-console.cloudinary.com/food-channel/thumbnails/transform/v1/image/upload/Y19zY2FsZSxoXzEwMjAsd18xOTIw/v1633555262/cnViZW4tZ3V0aWVycmV6LXlwdVdNWFRTM1NrLXVuc3BsYXNoX2l5ZTRwYQ==/template_primary') no-repeat center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
