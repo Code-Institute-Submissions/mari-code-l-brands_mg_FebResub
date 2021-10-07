@@ -14,8 +14,13 @@ body {
     align-items: center;
     display: inline-flex;
     justify-content: center;
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 20px;
+    width: 20px;
+}
+
+i.fas.fa-search{
+    height: 10px;
+    margin-bottom: 30px;
 }
 
 .logo-font {
@@ -24,6 +29,29 @@ body {
 
 .main-logo-link {
     width: fit-content;
+}
+
+div.row.bg-white{
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.form-control.border.border-black.rounded-0{
+    height: 25px;
+    margin-top: 4px;
+}
+
+.form-control.qty_input{
+    height: 38px;
+}
+
+.input-group-append{
+    margin-bottom: 5px;
+}
+
+.delivery-banner{
+    height: 25px;
+    margin-top: 10px;
 }
 
 .shop-now-button {
@@ -53,7 +81,7 @@ body {
 }
 
 .shop-now-button:hover{
-    background: rgba(247, 187, 22, 0.767);
+    background: rgba(107, 105, 98, 0.767);
     color: white;
 }
 
