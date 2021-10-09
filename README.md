@@ -85,15 +85,15 @@ The website needs to enable the user to:
 - The Registration, Sign-up, email confirmation, login and profile pages all use the same functional design 
 incorporating the aforementioned header and footer.
 
-<div align="left"><img src="media/readme/Screenshot 2021-10-09 at 15.40.36.png"></div>
+<div ><img src="media/readme/Screenshot 2021-10-09 at 15.40.36.png"></div>
 
 The shopping cart, checkout and checkout success pages are along the same lines.
 
-<div align="left"><img src="media/readme/Screenshot 2021-10-09 at 15.42.10.png"></div>
+<div><img src="media/readme/Screenshot 2021-10-09 at 15.42.10.png"></div>
 <br>
-<div align="left"><img src="media/readme/Screenshot 2021-10-09 at 15.42.45.png"></div>
+<div><img src="media/readme/Screenshot 2021-10-09 at 15.42.45.png"></div>
 <br>
-<div align="left"><img src="media/readme/Screenshot 2021-10-09 at 15.42.59.png"></div>
+<div><img src="media/readme/Screenshot 2021-10-09 at 15.42.59.png"></div>
 
 ### **Colour Scheme**
 
@@ -109,7 +109,7 @@ The shopping cart, checkout and checkout success pages are along the same lines.
 
     - The selected colours are:
 
-     <div align="left"><img src="media/readme/coloors.png"></div>
+     <div><img src="media/readme/coloors.png"></div>
 
 ### **Typography**
 
@@ -126,14 +126,9 @@ The shopping cart, checkout and checkout success pages are along the same lines.
 
 <div align="left"><img src="media/readme/Screenshot 2021-10-09 at 18.06.31.png"></div> 
 
-
-
-
-
-
-
 ### **Wireframes** 
-The wireframes for Desktop, Tablet and Mobile versions are [here.](https://github.com/thirdelement/sneaker-dadi/blob/master/media/readme/sneaker-dadi-wireframes.pdf)
+ - The wireframes for Desktop, Tablet and Mobile versions are [here.](media/wireframes/wf.png). Zoom in for larger view.
+ - Tablet and Mobile views are the same except Ipad pro.
 
 These wireframes were created at the start of the project and although very similar to the resulting website includes some features that were not implemented:
   - Wish List 
