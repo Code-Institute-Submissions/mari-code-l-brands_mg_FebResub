@@ -224,10 +224,12 @@ The shopping cart, checkout and checkout success pages are along the same lines.
 -   Footer
 -   Comparison of each related products
 -   Hotline
--   Online Char service
+-   Online Chat service
 -   More payment options with Bitcoin aswell
--   More Information in reaadme file about the site
--   To use Balsamiq wireframes
+-   More Information in readme file about the site
+-   More testing
+-   Sending E-mails to customers
+
 
 ## **Technologies Used**
 
