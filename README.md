@@ -130,20 +130,24 @@ The shopping cart, checkout and checkout success pages are along the same lines.
  - The wireframes for Desktop, Tablet and Mobile versions are [here.](media/wireframes/wf.png). Zoom in for larger view.
  - Tablet and Mobile views are the same except Ipad pro.
 
-These wireframes were created at the start of the project and although very similar to the resulting website includes some features that were not implemented:
-  - Wish List 
-  - Add to Cart button on the product card 
-  - Profile menu 
-  - Change password
-
 ### **Database Schema** 
 
+-  For the products of the website I have created 3 categories:
+  - Shoes
+  - Bags
+  - Caps
 
+**[{"pk": 1, "model": "products.category", "fields": {"name": "shoes", "friendly_name": "Shoes"}}, {"pk": 2, "model": "products.category", "fields": {"name": "bags", "friendly_name": "Bags"}}, {"pk": 4, "model": "products.category", "fields": {"name": "caps", "friendly_name": "Caps"}}]**
 
-
-
-
-
+- Product has the following example:
+  - "pk": 1, "model":
+    "sku": "pp5001340155", 
+    "name": "Air Jordan 11", 
+    "description": "This low top was inspired by the elegant and sophisticated Air Jordan 11..
+    "price": 129.90, 
+    "category": 1, 
+    "rating": 4.6, 
+    "image_url": "jordashoes.png", 
 
 ## **Features**
 - The Bootstrap toolkit was used throughout including:
@@ -264,20 +268,11 @@ These wireframes were created at the start of the project and although very simi
     - Color Generator.
 1. [Cloudinary](https://dbdiagram.io/home)
     - Creation of database diagram.
-
-
-
-
-
-
-
+1. [Balsamiq](https://balsamiq.com/)
+    - Creation of wireframes.
 
 ## **Testing**
-See Test report [here.](https://github.com/thirdelement/sneaker-dadi/blob/master/TESTING.md)
-
-
-
-
+See Test report [here.](TESTING.md)
 
 ## **Deployment**
 ### **Making a Local Clone**
@@ -394,7 +389,16 @@ See Test report [here.](https://github.com/thirdelement/sneaker-dadi/blob/master
 
 - The site was based on the Code Institute Boutique Ado project.
 - Bootstrap 5.1 was used throughout the site so that it is responsive to different devices and viewport sizes.
+- Slack for resolving bugs
 
 ## **Acknowledgments**
 
-- 
+- Student care who always attends my calls to resolve some problems regarding my course.
+- Tutor support was there to help me to troubleshoot.
+- My friends who keeps on motivating me when I am almost giving up.
+
+
+## **Note to Assesor**
+
+Thank you for your time for viewing my project. This is my resubmission project and Its been a tough times I can say. 
+I hope u are having a great time during this period. All the best! Cheers!
