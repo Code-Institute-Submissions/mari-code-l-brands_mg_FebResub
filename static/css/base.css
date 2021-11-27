@@ -5,7 +5,7 @@ html {
 body {
     background: url('https://res.cloudinary.com/food-channel/image/upload/v1633555262/ruben-gutierrez-ypuWMXTS3Sk-unsplash_iye4pa.jpg') no-repeat center fixed;
     background-size: cover;
-    height: 117vh;
+    height: calc(100vh - 116px);
     color: #555;
     font-family: 'Lato';
 }
