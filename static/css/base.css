@@ -50,7 +50,8 @@ div.row.bg-white{
 }
 
 .col.text-center{
-    margin-top: 70px;
+    margin-top: 800px;
+    font-size: small;
 }
 .delivery-banner{
     height: 25px;
