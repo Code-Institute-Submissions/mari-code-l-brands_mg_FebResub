@@ -118,7 +118,7 @@ The following items have been successfully tested on each page or component:
 - Remove link removes product from cart.
 - The sub-total for each size is correct. 
 - The sub total for the cart is correct.
-- Delivery is shown for orders below PHP50 and is removed above that threshold.
+- Delivery is shown for orders below 40€ and is removed above that threshold.
 - The order total shows correctly including delivery.
 - Secure Checkout and Continue Shopping buttons link correctly.
 

@@ -70,9 +70,9 @@
                                 <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                                 <p class="my-0">
                                     {% if grand_total %}
-                                        Php{{ grand_total|floatformat:2 }}
+                                        €{{ grand_total|floatformat:2 }}
                                     {% else %}
-                                        Php0.00
+                                        €0.00
                                     {% endif %}
                                 </p>
                             </div>
@@ -93,7 +93,7 @@
         </div>
         <div id="delivery-banner" class="row text-center">
             <div class="col text-shadow py-lg-3 text-light">
-                <h5 class="logo-font bg-dark">Free shipping Php{{ free_delivery_threshold }} above!</h5>                
+                <h5 class="logo-font bg-dark">Free shipping €{{ free_delivery_threshold }} above!</h5>                
             </div> 
             <div class="col-12 col-lg-3 my-auto py-4 py-lg-3">
                 <form method="GET" action="{% url 'products' %}">

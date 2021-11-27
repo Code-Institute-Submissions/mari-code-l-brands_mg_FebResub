@@ -170,8 +170,8 @@ The shopping cart, checkout and checkout success pages are along the same lines.
   - A checkbox provides an option to save the contact and address details back to the profile.
 
 - Free shipping
-  - A purchase below $50 will incur a flat £5.95 shipping cost.  
-  - The shipping cose is waived for orders over $50.
+  - A purchase below 40€ will incur a flat 5.95€ shipping cost.  
+  - The shipping cose is waived for orders over 50€.
 
 - Profile
   - Customer’s contact details and order history are saved in their profile.  
