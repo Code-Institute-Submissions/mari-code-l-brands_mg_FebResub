@@ -18,9 +18,8 @@ body {
     width: 20px;
 }
 
-i.fas.fa-search{
-    height: 10px;
-    margin-bottom: 30px;
+.input-group-append{
+   padding-bottom: 7px;
 }
 
 .logo-font {
