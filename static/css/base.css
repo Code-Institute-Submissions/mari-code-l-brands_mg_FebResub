@@ -22,6 +22,11 @@ body {
    padding-bottom: 7px;
 }
 
+.py-3.w-10.text-center{
+    word-spacing: 50px;
+    border-radius: 10px;
+}
+
 .logo-font {
     text-transform: uppercase;
 }
