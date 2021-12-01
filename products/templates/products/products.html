@@ -13,14 +13,13 @@
     <div class="overlay"></div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col text-center">
+            <div class="col text-center mb-3">
                 <h3 class="logo-font">Products</h3>
                 {% for c in current_categories %}
                 <a class="category-badge text-decoration-none" href="{% url 'products' %}?category={{ c.name }}">
                     <span class="p-2 mt-2 badge badge-white text-black rounded-0 border border-dark">{{ c.friendly_name }}</span>
                 </a>
                 {% endfor %}
-                <hr class="w-50 mb-1">
             </div>
         </div>
         <div class="row">
@@ -41,8 +40,8 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 order-md-first">
-                        <p class="text-muted mt-3 text-center text-md-left">
+                    <div class="col-12 col-md-5 order-md-first">
+                        <p class="text-muted mt-5 text-center text-md-left">
                             {% if search_term or current_categories or current_sorting != 'None_None' %}
                                 <span class="small"><a href="{% url 'products' %}">Products Home</a> | </span>
                             {% endif %}
@@ -52,7 +51,7 @@
                 </div>
                 <div class="row">
                     {% for product in products %}
-                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <div class="col-sm-6 col-md-3 col-lg-4 col-xl-3">
                             <div class="card h-100 border-0">
                                 {% if product.image %}
                                 <a href="{% url 'product_detail' product.id %}">
