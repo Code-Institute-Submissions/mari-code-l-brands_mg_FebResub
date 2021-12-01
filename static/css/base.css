@@ -5,7 +5,7 @@ html {
 body {
     background: url('https://res.cloudinary.com/food-channel/image/upload/v1638137869/AdobeStock_70657882_1_disklu.jpg') no-repeat center fixed;
     background-size: cover;
-    height: calc(100vh - 116px);
+    height: calc(90vh - 116px);
     color: #555;
     font-family: 'Lato';
 }
@@ -55,11 +55,6 @@ div.row.bg-white{
 
 h3.logo-font{
     margin-top: 100px;
-}
-
-.delivery-banner{
-    height: 25px;
-    margin-top: 10px;
 }
 
 .shop-now-button {
