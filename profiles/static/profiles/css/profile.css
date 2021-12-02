@@ -1,6 +1,10 @@
 .order-history {
     max-height: 416px; /* height of profile form + submit button */
     overflow-y: auto;
+    background-color: rgb(212, 241, 241);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
 }
 
 #profile-update-form .form-control {
