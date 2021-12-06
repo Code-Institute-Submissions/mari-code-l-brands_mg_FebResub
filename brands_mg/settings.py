@@ -65,7 +65,7 @@ ROOT_URLCONF = 'brands_mg.urls'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'  
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 TEMPLATES = [
     {
