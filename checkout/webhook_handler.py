@@ -35,7 +35,6 @@ class StripeWH_Handler:
         )
 
         print(body)
-        
 
     def handle_event(self, event):
         """
