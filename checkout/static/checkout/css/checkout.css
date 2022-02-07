@@ -57,7 +57,7 @@ select option[value=""] {
     z-index: 9999;
 }
 
-.loading-spinner {
+.spinner-grow {
 	display: flex;
     align-items: center;
     justify-content: center;
