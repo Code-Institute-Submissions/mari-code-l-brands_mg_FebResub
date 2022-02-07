@@ -138,7 +138,7 @@ class StripeWH_Handler:
                             )
                             order_line_item.save()
             except Exception as e:
-                
+
                 if order:
                     order.delete()
                 return HttpResponse(
