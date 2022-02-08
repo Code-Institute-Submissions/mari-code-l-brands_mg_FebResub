@@ -52,6 +52,10 @@ This document describes testing of the MG Brands E-commerce site against the Use
 
 <div><img src="media/testing/Screenshot 2021-10-10 at 13.26.51.png"></div>
 
+- confirmation email upon registration.
+
+<div><img src="media/testing/Screenshot.png"></div>
+
 - make payments.
 
 <div><img src="media/testing/Screenshot 2021-10-10 at 13.27.43.png"></div>
@@ -75,7 +79,7 @@ The following items have been successfully tested on each page or component:
 - The navbar toggler is shown on smaller screen sizes and menu items display correctly.
 
 ### Landing
-- 'Wear me' button link correctly.
+- 'Shop Now' button link correctly.
 
 ### Products
 - All products are displayed correctly at different screen sizes.
@@ -116,9 +120,8 @@ The following items have been successfully tested on each page or component:
 - Displays product name, quantity and price correctly.
 - Quantity is disabled below 1 and above 99 via increment/decrement buttons and manual entry.
 - Remove link removes product from cart.
-- The sub-total for each size is correct. 
 - The sub total for the cart is correct.
-- Delivery is shown for orders below PHP50 and is removed above that threshold.
+- Delivery is shown for orders below €40.
 - The order total shows correctly including delivery.
 - Secure Checkout and Continue Shopping buttons link correctly.
 

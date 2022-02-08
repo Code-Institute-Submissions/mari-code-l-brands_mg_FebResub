@@ -228,8 +228,6 @@ The shopping cart, checkout and checkout success pages are along the same lines.
 -   More payment options with Bitcoin aswell
 -   More Information in readme file about the site
 -   More testing
--   Sending E-mails to customers
-
 
 ## **Technologies Used**
 
@@ -278,7 +276,7 @@ See Test report [here.](TESTING.md)
 
 ## **Deployment**
 ### **Making a Local Clone**
-1.	Log into GitHub and locate the [Sneaker-Dadi repository](https://github.com/mari-code-l/brands_mg)
+1.	Log into GitHub and locate the [brands_mg repository](https://github.com/mari-code-l/brands_mg)
 2.	Under the repository name, click ‘Clone or download’.
 3.	To clone the repository using HTTPS, under ‘Clone with HTTPS’, copy the link.
 4.	Open Git Bash
@@ -288,14 +286,7 @@ See Test report [here.](TESTING.md)
 7.	Click Enter.  Your local clone will be created.
 8.	Following Stripe documentation, create a Stripe account and in Developers on the API key tab find the public and secret key.
 9.	Also in Stripe create a Webhook and find the Webhook secret key.
-10.	Create an env.py file to contain the following environment variables.
-    ```console
-    os.environ.setdefault("SECRET_KEY", "<app secret key>")
-    os.environ.setdefault("DEVELOPMENT", "True")
-    os.environ.setdefault('STRIPE_PUBLIC_KEY', '<from Stripe>')
-    os.environ.setdefault('STRIPE_SECRET_KEY', '<from Stripe>')
-    os.environ.setdefault('STRIPE_WH_SECRET', '<from Stripe>')
-    ```
+10.	Create an env.py file to contain the environment variables.
 11.	Create a .gitignore file ensuring *.sqlite3, *.pyc and __pycache__ are added.
 12.	Install all project requirements with `pip install –r requirements.txt` 
 13.	Run database migrations
@@ -306,7 +297,7 @@ See Test report [here.](TESTING.md)
 ### **Deploy to Heroku**
 1.	Login to Heroku
 2.	Create new app
-3.	Add name , choose closest region and click Create app
+3.	Add name, choose closest region and click Create app
 4.	In Resources create a new Postgres database
 5.	Select Hobby Dev-Free plan and click Submit Order Form
 6.	In your IDE install dj_database_url and psycopg2
