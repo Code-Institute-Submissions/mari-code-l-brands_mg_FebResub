@@ -150,7 +150,7 @@ The following items have been successfully tested on each page or component:
 - As the site has been designed using Bootstrap, it adheres to the Bootstrap grid layout and breakpoints.  Additional media queries have been used to align many aspects of the site including header, images, font-size, images, buttons, etc. 
 - The website has been tested across a broad range of physical and virtual desktop, tablet and mobile devices. 
 
-## Issues and Bugs
+## Issues/Bugs and Fixes
 
 - Logo disalignment
     fixed it through CSS manually
@@ -162,6 +162,14 @@ The following items have been successfully tested on each page or component:
     - I have widened the description to find right tags
 - Error in showing countries
     - I have spelled correctly
+- Users can manually write 999 therefore having a cart of value of 1m.
+    - Debug the validation form by adding "form[0].requestSubmit()"
+- CRUD functionality for Stripe payments is broken.
+    - Set the DEBUG into False.
+- Cannot fully register to the app, as the confirmation email is never received.
+    - Removed var development then set the DEBUG into False.
+- Users are able to initiate but not complete the payment process due to code bugs.
+    - Confirmation email folder moved to templates checkout folder.
 
 ### Unresolved bugs
 

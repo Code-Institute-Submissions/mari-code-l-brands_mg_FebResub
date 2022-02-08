@@ -329,7 +329,6 @@ See Test report [here.](TESTING.md)
     |AWS_ACCESS_KEY_ID|`<AWS ACCESS KEY ID>`|
     |AWS_SECRET_ACCESS_KEY|`<AWS SECRET ACCESS KEY>`|
     |DATABASE_URL|`<POSTGRES DATABASE URL>`|
-    |DISABLE_COLLECTSTATIC|`1` |
     |EMAIL_HOST_PASS|`<APP PASSWORD FROM EMAIL ACC>`|
     |EMAIL_HOST_USER|`<EMAIL ACC>`|
     |SECRET_KEY|`<SECRET KEY>`|
@@ -396,7 +395,7 @@ See Test report [here.](TESTING.md)
 ## **Acknowledgments**
 
 - Student care who always attends my calls to resolve some problems regarding my course.
-- Tutor support was there to help me to troubleshoot.
+- Tutor support was there to help me to troubleshoot especially John who helped me to fix a bug that bothers my app for a long time.
 - My friends who keeps on motivating me when I am almost giving up.
 
 
