@@ -35,6 +35,7 @@ Live Link : https://mg-brands.herokuapp.com/
 
 ### **Project Goals**
 * Ability for the User to register an account.
+* Ability for the User to login/logout.
 * Ability for the User to browse products in different categories.
 * Ability for the not registered User to browse products in different categories.
 * Ability for the registered User to receive confirmation emails for registration and order confirmation.
@@ -148,6 +149,8 @@ The shopping cart, checkout and checkout success pages are along the same lines.
     "category": 1, 
     "rating": 4.6, 
     "image_url": "jordashoes.png", 
+
+## **Features**
 
 ## **Features**
 - The Bootstrap toolkit was used throughout including:
