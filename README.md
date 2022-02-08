@@ -55,7 +55,7 @@ Live Link : https://mg-brands.herokuapp.com/
 
 ### **Structure**
 The Website is being developed as an e-commerce shop. 
-It is suitable for all gender and for all ages. It broken into three categories which focused on the following target audiences:
+It is suitable for all gender and for all ages. It is broken into three categories which focused on the following target audiences:
 - **Roles:**
      - New Users (Non-Registered)
      - Returning Users (Registered)
@@ -389,8 +389,6 @@ See Test report [here.](TESTING.md)
 - Tutor support was there to help me to troubleshoot especially John who helped me to fix a bug that bothers my app for a long time.
 - My friends who keeps on motivating me when I am almost giving up.
 
-
 ## **Note to Assesor**
 
-Thank you for your time for viewing my project. This is my resubmission project and Its been a tough times I can say. 
-I hope u are having a great time during this period. All the best! Cheers!
+Thank you for your time for viewing my project. This is my resubmission project and Its been a tough times I can say since I got Covid during this process. This will be my last project and I would like to thank you and the assesor team for keeping the students motivated and work hard on our projects. Again, thank u so much! I hope u are having a great time during this period. All the best! Cheers!

@@ -153,6 +153,18 @@ The following items have been successfully tested on each page or component:
 - As the site has been designed using Bootstrap, it adheres to the Bootstrap grid layout and breakpoints.  Additional media queries have been used to align many aspects of the site including header, images, font-size, images, buttons, etc. 
 - The website has been tested across a broad range of physical and virtual desktop, tablet and mobile devices. 
 
+## Stripe
+
+- Webhooks 200 ok
+
+<div><img src="media/testing/stripe.png"></div>
+
+## Heroku app
+
+- status 200
+
+<div><img src="media/testing/heroku.png"></div>
+
 ## Issues/Bugs and Fixes
 
 - Logo disalignment
