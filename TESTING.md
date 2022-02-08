@@ -56,6 +56,10 @@ This document describes testing of the MG Brands E-commerce site against the Use
 
 <div><img src="media/testing/Screenshot.png"></div>
 
+- confirmation email of the order.
+
+<div><img src="media/testing/Screenshotorder.png"></div>
+
 - make payments.
 
 <div><img src="media/testing/Screenshot 2021-10-10 at 13.27.43.png"></div>
